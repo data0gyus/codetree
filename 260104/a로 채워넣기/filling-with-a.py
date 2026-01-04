@@ -1,5 +1,6 @@
-a = input()
+a = list(input())
 
-a = a.replace(a[1], 'a', 1)
-a = a.replace(a[-2],'a',1 )
-print(a)
+a[1] = 'a'
+a[-2] = 'a'
+
+print(''.join(a))
