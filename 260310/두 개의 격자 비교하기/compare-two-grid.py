@@ -2,8 +2,8 @@ import sys
 input = sys.stdin.readline
 
 n,m = map(int, input().split())
-list1 = [list(map(int,input().split())) for _ in range(m)]
-list2 = [list(map(int,input().split())) for _ in range(m)]
+list1 = [list(map(int,input().split())) for _ in range(n)]
+list2 = [list(map(int,input().split())) for _ in range(n)]
 
 for i in range(n):
     for j in range(m):
